@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <head>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"
+</head>
+<body>
+  <audio id='incorrect'>
+  <source src='http://www.tvdsb.ca/webpages/balestrins/files/buzzer2.wav' type='audio/wav'></audio>
+    <audio id='1'>
+    <source src='https://s3.amazonaws.com/freecodecamp/simonSound1.mp3' type='audio/mpeg'>
+  </audio>
+  <audio id='2'><source src='https://s3.amazonaws.com/freecodecamp/simonSound2.mp3' type='audio/mpeg'></audio>
+  <audio id='3'><source src='https://s3.amazonaws.com/freecodecamp/simonSound3.mp3' type='audio/mpeg'></audio>
+  <audio id='4'><source src='https://s3.amazonaws.com/freecodecamp/simonSound4.mp3' type='audio/mpeg'></audio>
+<div class='container-fluid'>
+  <div class='boxsmall'>
+    <h3>Simon</h3>
+    <div id='screen' class='text-center'><p id='counter'>00<p></div>
+    <p id='count'>COUNT</p>
+    <p id='starttext' >START</p>
+    <p id='stricttext'>STRICT</p>
+    <button id='start'></button>
+    <button id='strict'></button>
+    <div id='led' ></div>
+    <button class=' btn ' id='off'>OFF</button>
+    <button class='btn' id='on' class='onoff'>ON</button>
+  </div>
+  
+  <div><a><div class='box1' id='redbox' value='0'></div></a>
+  <div class='box2' id='yellowbox' value='1'></div></div>
+ <div> <div class='box3' id='bluebox' value='2'></div>
+   <div class='box4' id='greenbox' value='3'></div</div>
+</div>
+   <footer class='text-center'><p>Created by <a id='link' target='_blank' href='https://www.linkedin.com/in/ninh-le-1b3033147/'>NL</a> </p></footer>
+  </div>
+   </body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
